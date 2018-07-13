@@ -25,4 +25,13 @@ function addTypeElement(element, parameter){
 }
 addElement("h1");
 addTypeElement("input", "radio");
+addElement("p");
 addTypeElement("input", "radio");
+addElement("p");
+
+function addText(element, text){
+    element = document.querySelectorAll(element);
+    element.textContent(text);
+    element.appendChild();
+}
+addText("p","Yes");
