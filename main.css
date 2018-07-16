@@ -1,0 +1,106 @@
+body {
+    background: 
+        radial-gradient( 
+            circle,
+            rgb(0, 0, 0), 
+            rgb(49, 49, 49),
+            rgb(53, 53, 53), 
+            rgb(0, 0, 0));
+	background-size: 400% 400%;
+	animation: Gradient 35s linear infinite;
+}
+
+#place-content {
+    width: 65%;
+    margin: 10% auto;
+    padding: 1em;
+    box-shadow: black 10px 10px 10px;
+    border-radius: 10px;
+    background: 
+        linear-gradient(
+            -45deg, 
+            rgb(0, 0, 0), 
+            rgb(126, 0, 0), 
+            rgb(0, 2, 100), 
+            rgb(0, 0, 0));
+	background-size: 400% 400%;
+	animation: Gradient 15s linear infinite;
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+h1 {
+    color:bisque;
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 0 1px 0 rgb(46, 46, 46),
+               0 2px 0 rgb(36, 36, 36),
+               0 3px 0 rgb(26, 26, 26),
+               0 4px 0 rgb(16, 16, 16),
+               0 5px 0 rgb(6, 6, 6),
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+button {
+   
+    height: 4em;
+    width: 7em;
+    margin-left: 15%;
+    border-radius: 5px;
+
+}
+
+.yes-button {
+    height: 4em;
+    width: 7em;
+    margin-left: 15%;
+    cursor: default;
+    border: none;
+    font: normal 1.5em/normal "Anton", Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    background: none;
+    text-shadow: 
+        0 0 20px rgb(254,252,201), 
+        10px -10px 30px rgb(254,236,133), 
+        -20px -20px 40px rgb(255,174,52), 
+        20px -40px 50px rgb(236,118,12), 
+        -20px -60px 60px rgb(205,70,6), 
+        0 -80px 70px rgb(151,55,22), 
+        10px -90px 80px rgb(69,27,14);
+}
+
+.no-button {
+    height: 4em;
+    width: 7em;
+    margin-left: 15%;
+    cursor: default;
+    border: none;
+    font: normal 1.5em/normal "Anton", Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    background: none;
+    text-shadow: 
+        0 0 20px rgb(201, 254, 254), 
+        10px -10px 30px rgb(133, 254, 248), 
+        -20px -20px 40px rgb(52, 197, 255), 
+        20px -40px 50px rgb(12, 90, 236), 
+        -20px -60px 60px rgb(6, 42, 205), 
+        0 -80px 70px rgb(22, 35, 151), 
+        10px -90px 80px rgb(18, 14, 69);
+}
