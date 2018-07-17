@@ -35,6 +35,6 @@ function addClass(element, index, className){
 ```
 And that final function adds CSS classes to my generated elements.
 
-### Hopes and Dreams
+### Hopes and Dreams/Does it work??
 
-Currently, the code will generate new questions. I hope in the near future to solve the placement of the conditional to get it working and make the app functions how originally envisioned! Thanks for checking it out, pleasemjust regard this as a simple representation of where my ubderstanding of Javascript is at week 2 of NSS!
+In short, no. No it doesn't. Currently, the code will generate new questions. I hope in the near future to solve the placement of the conditional to get it working and make the app functions how originally envisioned! Thanks for checking it out, please just regard this as a simple representation of where my ubderstanding of Javascript is at week 2 of NSS!
